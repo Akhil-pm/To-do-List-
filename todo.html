@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css files/style1.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="icon" href="">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <h1 class="navbar-brand mb-0 h1 animated heartBeat">To-do List</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+  
+            <li class="nav-item active">
+              <a class="nav-link" href="Todo.html">Todo List</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="login.html">LogOut</a>
+            </li>          
+          </ul>
+        </div>
+        </div>
+      </nav>
+
+
+      <div class="container-fluid">
+        <div class="heading">
+        <h1 class="text-center">Daily  Tasks</h1>
+    </div>
+      </div>
+   <div class="view">
+    <button id="btn" class="btn btn-dark btn-lg">View List</button>
+   </div><br><br>
+
+   <div class="container " id="list">
+    <table class="table table-stripped table-bordered table-sm table-dark ">
+      <thead>
+        <tr>
+          
+          <th>Sl.no.</th>
+          <th>Title</th>
+         
+          <th>Checkbox</th>
+        </tr>
+      </thead>
+      <tbody id="content"></tbody>
+    </table>
+  </div>
+
+
+  <footer class="footer-div">
+    <div class="footer-copyright text-center py-1">
+    <p> Copyright © ICTAK</p>
+    </div>
+    </footer>
+
+    <script src="./js files/ajax.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

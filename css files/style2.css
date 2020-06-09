@@ -1,0 +1,49 @@
+body{
+  background-color: dimgray;
+  background: url(https://www.proofhub.com/wp-content/uploads/2019/01/to-do-list-apps.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+
+
+.navbar-dark .navbar-nav .nav-link.acive,
+.navbar-dark .navbar-nav .nav-link:hover
+{
+    color: rgb(205, 219, 8);
+}
+
+.heading{
+    margin-top: 18rem;
+    color: rgb(255, 15, 7);
+    font-family: 'Lucida Sans';
+    font-weight: 700;
+    font-size: 20rem;
+}
+
+ 
+.animated {
+    animation-duration: 1.75s !important;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+  }
+
+  .footer-div{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+ }
+ .footer-copyright{
+    background-color: rgb(74, 78, 93);
+    
+ }
+ .footer-copyright p{
+    font-size: small;
+    color: white;
+    margin-bottom: 0rem;
+ }
+
+
+ 

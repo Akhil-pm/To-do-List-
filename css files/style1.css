@@ -1,0 +1,81 @@
+body{
+    background-color: darkslategrey;
+    /* background: url(https://www.proofhub.com/wp-content/uploads/2019/01/to-do-list-apps.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ */
+ position: relative;
+ min-height: 100vh;
+ padding-bottom: 50px;
+}
+
+.btn{
+    background-color: rgb(0, 18, 132) !important;
+}
+
+
+.navbar-dark .navbar-nav .nav-link.acive,
+.navbar-dark .navbar-nav .nav-link:hover
+{
+    color: rgb(205, 219, 8);
+}
+
+.heading{
+    margin-top: 7rem;
+    /* color: rgb(36, 218, 3); */
+}
+.heading h1{
+    text-decoration: underline;
+    color: rgb(181, 214, 243);
+    text-shadow: 2px 1px 5px black;
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    padding: 2rem;
+}
+
+ 
+.animated {
+    animation-duration: 1.75s !important;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+  }
+
+
+ .view{
+     margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+ }
+
+ input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 3px rgb(224, 23, 23);
+    width: 14px;
+    height: 14px;
+  }
+
+  #list{
+      visibility: hidden;
+  }
+
+
+  td,th {
+    color: white;
+    text-align: center; 
+ 
+  }
+
+
+  .footer-div{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+ }
+ .footer-copyright{
+    background-color: rgb(74, 78, 93);
+    
+ }
+ .footer-copyright p{
+    font-size: small;
+    color: white;
+    margin-bottom: 0rem;
+ }
